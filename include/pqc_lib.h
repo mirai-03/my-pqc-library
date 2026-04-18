@@ -26,3 +26,11 @@ int pqc_sign(unsigned char *sig, size_t *sig_len, const unsigned char *msg, size
 int pqc_verify(const unsigned char *sig, size_t sig_len, const unsigned char *msg, size_t msg_len, const unsigned char *pk);
 
 #endif
+
+/* File Encryption Constants */
+#define AES_IV_SIZE 12
+#define AES_TAG_SIZE 16
+
+/* Function Prototypes for File Security */
+int pqc_encrypt_file(const char *input_path, const char *output_path, const uint8_t *shared_secret);
+int pqc_decrypt_file(const char *input_path, const char *output_path, const uint8_t *shared_secret);

@@ -1,0 +1,15 @@
+# Build artifacts
+*.o
+*.a
+*.so
+pqc_tester
+
+# Test files
+test_data.txt
+test_data.vault
+decrypted.txt
+
+# System/Editor junk
+.DS_Store
+*.swp
+secret.txt
