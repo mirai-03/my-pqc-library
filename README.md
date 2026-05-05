@@ -3,6 +3,7 @@
 > **A High-Level Hybrid Post-Quantum Cryptographic Library for C**
 
 QuantumVault-PQC is a developer-friendly C library that wraps NIST-standardized Post-Quantum Cryptography (PQC) algorithms with industry-proven AES-256-GCM encryption to deliver end-to-end data security — built for the quantum era, usable today.
+**Developed under the initiative of Corecys Private Limited.**
 
 ---
 
@@ -13,9 +14,6 @@ QuantumVault-PQC is a developer-friendly C library that wraps NIST-standardized 
 - [Technical Architecture](#technical-architecture)
 - [Prerequisites](#prerequisites)
 - [Installation & Build](#installation--build)
-- [API Reference](#api-reference)
-- [Testing & Verification](#testing--verification)
-- [Security Considerations](#security-considerations)
 
 ---
 
